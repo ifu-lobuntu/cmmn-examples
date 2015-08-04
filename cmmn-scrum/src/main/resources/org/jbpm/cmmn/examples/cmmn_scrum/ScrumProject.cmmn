@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cmmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.jbpm.org/cmmn/examples/cmmn_scrum" xmlns:cmmn="http://www.omg.org/spec/CMMN/20131201/MODEL" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20131201/DI" id="_T0FD8Dq_EeWQdLXT0qA_Qg" targetNamespace="http://www.jbpm.org/cmmn/examples/cmmn_scrum">
+  <diagram id="_T1bHwDq_EeWQdLXT0qA_Qg" cmmnElement="#_T0FD8Dq_EeWQdLXT0qA_Qg">
+    <ownedCmmnDiagramElement xsi:type="cmmndi:CMMNShape" id="_T1bHwTq_EeWQdLXT0qA_Qg" cmmnElement="#cmmn-scrum.ScrumProject">
+      <bounds x="10.0" y="10.0" width="600.0" height="300.0"/>
+    </ownedCmmnDiagramElement>
+  </diagram>
+  <cmmn:case id="cmmn-scrum.ScrumProject" name="cmmn-scrum.ScrumProject">
+    <cmmn:caseFileModel/>
+    <cmmn:casePlanModel id="_T1agsDq_EeWQdLXT0qA_Qg" autoComplete="true"/>
+  </cmmn:case>
+</cmmn:definitions>
