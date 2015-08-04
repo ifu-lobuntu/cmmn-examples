@@ -1,5 +1,109 @@
-<?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
-  <uml:Package xmi:id="_Nvo8oTq8EeWQdLXT0qA_Qg" name="cmmn-scrum.ScrumCaseFile"/>
-  <umldi:UMLDiagram xmi:id="_NvpjsDq8EeWQdLXT0qA_Qg" umlElement="_Nvo8oTq8EeWQdLXT0qA_Qg"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_Nvo8oTq8EeWQdLXT0qA_Qg" name="cmmn-scrum.ScrumCaseFile">
+    <packagedElement xsi:type="uml:Class" xmi:id="_3D26CB78-A9A4-40B2-8E72-52876C72B966" name="ProductBacklog">
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_RqpHsDq-EeWQdLXT0qA_Qg" name="end2Name" type="_68A93535-97EE-4182-AEF5-A9D81328245B" association="_4C790281-47F0-4AAE-B491-54D6DA71862D"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_68A93535-97EE-4182-AEF5-A9D81328245B" name="UserStory">
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_1FFC4792-EAC3-425A-ABA2-3E07DB9CBC90" name="name">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_nOT-cMGyEeSOM_pby657_g"/>
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_RqtZITq-EeWQdLXT0qA_Qg" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_RqtZIDq-EeWQdLXT0qA_Qg"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_RquAMDq-EeWQdLXT0qA_Qg" name="end1Name" type="_3D26CB78-A9A4-40B2-8E72-52876C72B966" association="_4C790281-47F0-4AAE-B491-54D6DA71862D">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_RquAMjq-EeWQdLXT0qA_Qg" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_RquAMTq-EeWQdLXT0qA_Qg"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_RquANTq-EeWQdLXT0qA_Qg" name="productDefinition" type="_8180A7DB-648D-405C-814B-FEAD7C1AB7B1" association="_15AECFBB-4964-4DAF-A684-F6C93D076CDB"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_8180A7DB-648D-405C-814B-FEAD7C1AB7B1" name="ProductDefinition">
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_RqtZIjq-EeWQdLXT0qA_Qg" name="end2Name" type="_68A93535-97EE-4182-AEF5-A9D81328245B" aggregation="composite" association="_15AECFBB-4964-4DAF-A684-F6C93D076CDB">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_RquANzq-EeWQdLXT0qA_Qg" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_RquANjq-EeWQdLXT0qA_Qg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_4C790281-47F0-4AAE-B491-54D6DA71862D" memberEnd="_RquAMDq-EeWQdLXT0qA_Qg _RqpHsDq-EeWQdLXT0qA_Qg">
+      <name xsi:nil="true"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_15AECFBB-4964-4DAF-A684-F6C93D076CDB" memberEnd="_RquANTq-EeWQdLXT0qA_Qg _RqtZIjq-EeWQdLXT0qA_Qg">
+      <name xsi:nil="true"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_59C5EFE5-79ED-4973-B300-F30EC276F940" name="User"/>
+  </uml:Package>
+  <umldi:UMLDiagram xmi:id="_NvpjsDq8EeWQdLXT0qA_Qg" umlElement="_Nvo8oTq8EeWQdLXT0qA_Qg">
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_RqdhhDq-EeWQdLXT0qA_Qg" umlElement="_3D26CB78-A9A4-40B2-8E72-52876C72B966">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_Rqdhgjq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_RqeIkDq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RqeIkjq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqeIkTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_Rqdhgzq-EeWQdLXT0qA_Qg" x="105.0" y="159.5" width="120.0" height="70.0"/>
+      <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_RqeIljq-EeWQdLXT0qA_Qg" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="ownedAttribute">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqeIlDq-EeWQdLXT0qA_Qg">
+          <fillColor xsi:type="DC:Color" xmi:id="_RqevoDq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_Rqevojq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_RqevoTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_RqeIlTq-EeWQdLXT0qA_Qg" x="1.0" y="30.0" width="118.0" height="25.0"/>
+      </ownedCompartment>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_Rqevpjq-EeWQdLXT0qA_Qg" umlElement="_68A93535-97EE-4182-AEF5-A9D81328245B">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqevpDq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_Rqevpzq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RqevqTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqevqDq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_RqevpTq-EeWQdLXT0qA_Qg" x="420.0" y="149.0" width="125.0" height="91.0"/>
+      <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_RqevrTq-EeWQdLXT0qA_Qg" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="ownedAttribute">
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_Rqevqzq-EeWQdLXT0qA_Qg">
+          <fillColor xsi:type="DC:Color" xmi:id="_Rqevrjq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_RqfWsDq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_Rqevrzq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        </localStyle>
+        <bounds xsi:type="DC:Bounds" xmi:id="_RqevrDq-EeWQdLXT0qA_Qg" x="1.0" y="30.0" width="123.0" height="46.0"/>
+        <ownedShape xsi:type="umldi:UMLShape" xmi:id="_RqfWtDq-EeWQdLXT0qA_Qg" umlElement="_1FFC4792-EAC3-425A-ABA2-3E07DB9CBC90">
+          <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqfWsjq-EeWQdLXT0qA_Qg">
+            <fillColor xsi:type="DC:Color" xmi:id="_RqfWtTq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+            <strokeColor xsi:type="DC:Color" xmi:id="_RqfWtzq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+            <fontColor xsi:type="DC:Color" xmi:id="_RqfWtjq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+          </localStyle>
+          <bounds xsi:type="DC:Bounds" xmi:id="_RqfWszq-EeWQdLXT0qA_Qg" x="1.0" y="15.0" width="120.0" height="20.0"/>
+        </ownedShape>
+      </ownedCompartment>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_RqfWuzq-EeWQdLXT0qA_Qg" umlElement="_8180A7DB-648D-405C-814B-FEAD7C1AB7B1">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqfWuTq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_RqfWvDq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RqfWvjq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqfWvTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_RqfWujq-EeWQdLXT0qA_Qg" x="105.0" y="45.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_RqmEYjq-EeWQdLXT0qA_Qg" umlElement="_4C790281-47F0-4AAE-B491-54D6DA71862D" sourceShape="_RqdhhDq-EeWQdLXT0qA_Qg" targetShape="_Rqevpjq-EeWQdLXT0qA_Qg">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqmEYTq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_RqmrcDq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_Rqmrcjq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqmrcTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" xmi:id="_RquAMzq-EeWQdLXT0qA_Qg" x="165.0" y="194.5"/>
+      <waypoint xsi:type="DC:Point" xmi:id="_RquANDq-EeWQdLXT0qA_Qg" x="482.5" y="194.5"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_RqmrdTq-EeWQdLXT0qA_Qg" umlElement="_15AECFBB-4964-4DAF-A684-F6C93D076CDB" sourceShape="_RqfWuzq-EeWQdLXT0qA_Qg" targetShape="_Rqevpjq-EeWQdLXT0qA_Qg">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqmrdDq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_Rqmrdjq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RqnSgTq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqnSgDq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <waypoint xsi:type="DC:Point" xmi:id="_RqunQDq-EeWQdLXT0qA_Qg" x="165.0" y="67.5"/>
+      <waypoint xsi:type="DC:Point" xmi:id="_RqunQTq-EeWQdLXT0qA_Qg" x="482.5" y="194.5"/>
+    </ownedUmlDiagramElement>
+    <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_RqnShTq-EeWQdLXT0qA_Qg" umlElement="_59C5EFE5-79ED-4973-B300-F30EC276F940">
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_RqnSgzq-EeWQdLXT0qA_Qg">
+        <fillColor xsi:type="DC:Color" xmi:id="_RqnShjq-EeWQdLXT0qA_Qg" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_RqnSiDq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_RqnShzq-EeWQdLXT0qA_Qg" red="0" green="0" blue="0"/>
+      </localStyle>
+      <bounds xsi:type="DC:Bounds" xmi:id="_RqnShDq-EeWQdLXT0qA_Qg" x="435.0" y="45.0" width="120.0" height="45.0"/>
+    </ownedUmlDiagramElement>
+  </umldi:UMLDiagram>
 </xmi:XMI>
