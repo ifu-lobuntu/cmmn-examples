@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI">
+  <uml:Package xmi:id="_Nvo8oTq8EeWQdLXT0qA_Qg" name="cmmn-scrum.ScrumCaseFile"/>
+  <umldi:UMLDiagram xmi:id="_NvpjsDq8EeWQdLXT0qA_Qg" umlElement="_Nvo8oTq8EeWQdLXT0qA_Qg"/>
+</xmi:XMI>
