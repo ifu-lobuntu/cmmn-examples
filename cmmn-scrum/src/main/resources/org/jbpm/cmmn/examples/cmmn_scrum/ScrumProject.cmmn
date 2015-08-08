@@ -25,23 +25,13 @@
         </localStyle>
         <bounds x="50.0" y="50.0" width="91.0" height="81.0"/>
       </ownedShape>
-      <ownedShape id="_kNG18DrBEeWQdLXT0qA_Qg" cmmnElement="#_590D6701-41EE-4729-B344-1C0B02BA11D7">
-        <localStyle xsi:type="cmmndi:CMMNStyle">
-          <fillColor red="255" green="255" blue="255"/>
-          <strokeColor red="0" green="0" blue="0"/>
-          <fontColor red="0" green="0" blue="0"/>
-        </localStyle>
-        <bounds x="35.0" y="155.0" width="50.0" height="80.0"/>
-      </ownedShape>
     </ownedCmmnDiagramElement>
   </diagram>
-  <cmmn:import importType="UML" location="platform:/resource/cmmn-scrum/src/main/resources/org/jbpm/cmmn/examples/cmmn_scrum/ScrumCaseFile.ucd" namespace="http://www.jbpm.org/cmmn/examples/cmmn_scrum" id="_kNKgUDrBEeWQdLXT0qA_Qg"/>
-  <cmmn:caseFileItemDefinition id="_GCtJUDrAEeWQdLXT0qA_Qg" definitionType="http://www.omg.org/spec/CMMN/DefinitionType/UMLClass" importRef="_kNKgUDrBEeWQdLXT0qA_Qg" structureRef="ProductDefinition"/>
-  <cmmn:caseFileItemDefinition id="_kNKgUTrBEeWQdLXT0qA_Qg" structureRef="ProductBacklog"/>
+  <cmmn:import importType="UML" location="platform:/resource/cmmn-scrum/src/main/resources/org/jbpm/cmmn/examples/cmmn_scrum/ScrumCaseFile.ucd" namespace="http://www.jbpm.org/cmmn/examples/cmmn_scrum" id="_Gtx_0D2jEeW8EZ3J7OM5wA"/>
+  <cmmn:caseFileItemDefinition id="_GCtJUDrAEeWQdLXT0qA_Qg" definitionType="http://www.omg.org/spec/CMMN/DefinitionType/UMLClass" importRef="_Gtx_0D2jEeW8EZ3J7OM5wA" structureRef="ProductPlan"/>
   <cmmn:case id="cmmn-scrum.ScrumProject" name="cmmn-scrum.ScrumProject">
     <cmmn:caseFileModel>
-      <cmmn:caseFileItem id="_B610486B-A68E-4676-B14E-5C470CD8AB74" definitionRef="_GCtJUDrAEeWQdLXT0qA_Qg" multiplicity="ExactlyOne" name="ProductDefinition"/>
-      <cmmn:caseFileItem id="_590D6701-41EE-4729-B344-1C0B02BA11D7" definitionRef="_kNKgUTrBEeWQdLXT0qA_Qg" multiplicity="Unspecified" name="ProductBacklog"/>
+      <cmmn:caseFileItem id="_B610486B-A68E-4676-B14E-5C470CD8AB74" definitionRef="_GCtJUDrAEeWQdLXT0qA_Qg" multiplicity="ExactlyOne" name="ProductPlan"/>
     </cmmn:caseFileModel>
     <cmmn:casePlanModel id="_T1agsDq_EeWQdLXT0qA_Qg" autoComplete="true">
       <cmmn:planItem id="_0B2C2B86-89AD-4452-8950-8EAA57D4EA46" definitionRef="_GCtJUTrAEeWQdLXT0qA_Qg" name="DefineProduct">
@@ -58,14 +48,14 @@
         </cmmn:itemControl>
       </cmmn:planItem>
       <cmmn:planItemDefinition xsi:type="cmmn:tHumanTask" id="_GCtJUTrAEeWQdLXT0qA_Qg" name="DefineProduct" isBlocking="true" performerRef="ProductOwner">
-        <cmmn:inputs id="_GCtJUjrAEeWQdLXT0qA_Qg" name="productDefinition" bindingRef="_B610486B-A68E-4676-B14E-5C470CD8AB74">
+        <cmmn:inputs id="_Gtx_0T2jEeW8EZ3J7OM5wA" name="productPlan" bindingRef="_B610486B-A68E-4676-B14E-5C470CD8AB74">
           <cmmn:bindingRefinement language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
         </cmmn:inputs>
       </cmmn:planItemDefinition>
     </cmmn:casePlanModel>
     <cmmn:caseRoles id="ProductOwner" name="ProductOwner"/>
     <cmmn:caseRoles id="Developer" name="Developer"/>
-    <cmmn:input id="_LKa0kTrBEeWQdLXT0qA_Qg" name="productDefinition" bindingRef="_B610486B-A68E-4676-B14E-5C470CD8AB74">
+    <cmmn:input id="_LKa0kTrBEeWQdLXT0qA_Qg" name="productDefinition">
       <cmmn:bindingRefinement language=""><cmmn:body></cmmn:body></cmmn:bindingRefinement>
     </cmmn:input>
   </cmmn:case>
